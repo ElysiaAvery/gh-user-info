@@ -34,5 +34,32 @@ ul {
 }
 
 img {
-  height: 50px;
+  height: 75px;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h2, h3 {
+  font-family: $play;
+}
+
+.well {
+  background-color: #FCD2B8;
+}
+
+label {
+  @extend h2;
+}
+
+button {
+  float: right;
+  margin: 15px;
+  padding: 10px !important;
+  background: $mermaid !important;
+}
+
+li {
+  font-family: $hind;
 }
