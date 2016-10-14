@@ -17,7 +17,7 @@ Information.prototype.getRepos = function(username, displayUser){
       }
     }
   }).fail(function(error){
-    console.log("there is an error.");
+    $('#output').text(error.responseJSON.message);
   });
 };
 

@@ -25,7 +25,7 @@ A web app that uses the GitHub API to allow a searching by username as a way to 
   * Open with Atom (or text editor of your choice): `$ atom .`
 * In your browser, navigate to your GitHub Account, apply for a Personal Access Token:
   * Navigate to settings/tokens and enter for why you would need a token (clicking on the options is not necessary).
-* In the text editor window, create a .env file in.
+* In the text editor, create a .env file in the top directory.
   * Within that file create an apiKey variable: `exports.apiKey = "YOUR-API-KEY-GOES-HERE".apiKey;`
 * In your terminal window run gulp build: `$ gulp build`
   * Then enter that you would like to connect to the local server: `$ gulp serve`

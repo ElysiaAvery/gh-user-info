@@ -1,0 +1,24 @@
+$satisfy: 'Satisfy', cursive;
+$rasa: 'Rasa', serif;
+$size3: 3em;
+$size4: 4em;
+$size10: 10em;
+$sky: #ADCAC3;
+
+.jumbotron {
+  background-size: 100%;
+  background-image: url(../../img/cat.jpeg);
+  padding-top: 5%;
+  padding-bottom: 25%;
+}
+
+h1 {
+  font-family: $satisfy;
+  font-size: $size10;
+  text-align: center;
+  color: $sky;
+}
+
+#header {
+  font-family: $rasa;
+}
