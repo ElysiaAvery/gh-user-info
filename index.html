@@ -11,13 +11,18 @@
     <div class="container">
       <h1 class="well">Github User Info</h1>
       <div class="row">
-        <div class="col-sm-4">
-          
-        </div>
-        <div class="col-sm-4">
+        <div class="col-sm-3">
 
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-6">
+          <form id="ghForm">
+            <label for="username">Enter Username:</label>
+            <input type="text" id="username" class="form-control" placeholder="ex: octocat" required>
+            <button type="submit" class="btn btn-info">Submit</button>
+          </form>
+          <ul id="output"></ul>
+        </div>
+        <div class="col-sm-3">
 
         </div>
       </div>
