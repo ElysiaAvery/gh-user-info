@@ -12,7 +12,8 @@ Information.prototype.getRepos = function(username, displayUser){
     } else {
       for(var i = 0; i < response.length; i ++) {
         console.log(response);
-        displayUser(username, response[i].full_name, response[i].html_url);
+        displayUser(username, response[i].name, response[i].html_url);
+        console.log(response[i].html_url);
       }
     }
   }).fail(function(error){
