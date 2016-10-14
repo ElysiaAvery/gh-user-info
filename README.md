@@ -22,11 +22,14 @@ A web app that uses the GitHub API to allow a searching by username as a way to 
   * Navigate to the gh-user-info directory: `$ cd gh-user-info`
   * Enter the command: `$ npm install`
   * Enter the command: `$ bower install`
+  * Install Ruby by either navigating to the ruby website [here](http://rubyinstaller.org/)     or by using Homebrew on Mac and entering this command: `$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+  * Next enter: `$ gem install sass`
+  * And finally: `$ npm install gulp-sass gulp-sourcemaps --save-dev`
   * Open with Atom (or text editor of your choice): `$ atom .`
 * In your browser, navigate to your GitHub Account, apply for a Personal Access Token:
   * Navigate to settings/tokens and enter for why you would need a token (clicking on the options is not necessary).
 * In the text editor, create a .env file in the top directory.
-  * Within that file create an apiKey variable: `exports.apiKey = "YOUR-API-KEY-GOES-HERE".apiKey;`
+  * Within that file create an apiKey variable: `exports.apiKey = "YOUR-API-KEY-GOES-HERE";`
 * In your terminal window run gulp build: `$ gulp build`
   * Then enter that you would like to connect to the local server: `$ gulp serve`
 * In the browser of your choosing, navigate to "localhost:3000" (tested in Chrome).
