@@ -1,24 +1,37 @@
 $satisfy: 'Satisfy', cursive;
-$rasa: 'Rasa', serif;
+$hind: 'Hind Madurai', sans-serif;
 $size3: 3em;
 $size4: 4em;
 $size10: 10em;
 $sky: #ADCAC3;
+$sea: #77A29A;
+$mermaid: #1B5C4D;
+$paper: #FFE9DB;
 
 .jumbotron {
   background-size: 100%;
   background-image: url(../../img/cat.jpeg);
   padding-top: 5%;
   padding-bottom: 25%;
+  color: $paper;
+}
+#header {
+  font-family: $hind;
+  text-indent: -1em;
 }
 
 h1 {
   font-family: $satisfy;
   font-size: $size10;
   text-align: center;
-  color: $sky;
+  text-shadow: 2px 2px 2px black;
 }
 
-#header {
-  font-family: $rasa;
+ul {
+  list-style: none;
+  padding: 3px;
+}
+
+img {
+  height: 50px;
 }
