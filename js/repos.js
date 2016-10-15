@@ -5,7 +5,7 @@ function Repos() {
 }
 
 Repos.prototype.getRepos = function(username, displayUser){
-  $.get('https://api.github.com/users/' + username + '/repos?per_page=1000?access_token=' + apiKey).then(function(response){
+  $.get('https://api.github.com/users/' + username + '/repos?page=1&per_page=100?access_token=' + apiKey).then(function(response){
     console.log(response);
     if(response.length === 0) {
       $("#output").append("<li>There are no repos by this user.</li>");
