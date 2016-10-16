@@ -12,21 +12,27 @@
     <div class="container">
       <h1 class="jumbotron">Github <span id="header">User Info</span></h1>
       <div class="row">
-        <div class="col-sm-3">
-
-        </div>
+        <div class="col-sm-3"></div>
         <div class="col-sm-6">
           <form id="ghForm">
             <label for="username">Enter Username:</label>
             <input type="text" id="username" class="form-control" placeholder="ex: octocat" required>
             <button type="submit" class="btn btn-info">Submit</button>
           </form>
+        </div>
+        <div class="col-sm-3"></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-4">
+          <h2 id="user-header"></h2>
+          <ul id="info-output"></ul>
+        </div>
+        <div class="col-sm-4">
           <h2 id="gh-output"></h2>
           <ul id="output"></ul>
         </div>
-        <div class="col-sm-3">
-
-        </div>
+        <div class="col-sm-2"></div>
       </div>
     </div>
   </body>
