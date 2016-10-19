@@ -14,6 +14,10 @@ var displayInfo = function(username, name, email, url, avatar) {
 $(document).ready(function() {
   $('#ghForm').submit(function() {
     event.preventDefault();
+    $('#user-header').empty();
+    $('#info-output').empty();
+    $('#gh-output').empty();
+    $('#output').empty();
     var newRepos = new Repos();
     var username = $('#username').val();
     newRepos.getRepos(username, displayUser);
